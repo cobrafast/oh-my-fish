@@ -293,7 +293,7 @@ function __bobthefish_prompt_git -d 'Display the actual git state'
   [ "$flags" ]; and set flags " $flags"
 
   set -l flag_bg $__bobthefish_lt_green
-  set -l flag_fg $__bobthefish_dk_green
+  set -l flag_fg $__bobthefish_dk_grey
   if [ "$dirty" -o "$staged" ]
     set flag_bg $__bobthefish_med_red
     set flag_fg fff
@@ -304,7 +304,7 @@ function __bobthefish_prompt_git -d 'Display the actual git state'
 
   __bobthefish_path_segment $argv[1]
 
-  __bobthefish_start_segment $flag_bg $flag_fg --bold
+  __bobthefish_start_segment $flag_bg $flag_fg
   echo -n -s (__bobthefish_git_branch) $flags ' '
   set_color normal
 
