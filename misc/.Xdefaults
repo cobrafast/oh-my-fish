@@ -1,0 +1,55 @@
+urxvt.termName:        rxvt-unicode-256color
+urxvt.loginShell:      true
+urxvt*urlLauncher:     /usr/bin/chromium
+urxvt*perl-lib:        /usr/lib/urxvt/perl/
+urxvt*perl-ext-common: default,matcher,searchable-scrollback
+urxvt*font:            xft:ProfontWindows for Powerline:pixelsize=12:antialias=false
+urxvt*boldFont:        xft:ProfontWindows for Powerline:pixelsize=12:antialias=false
+urxvt.scrollBar:       false
+urxvt.saveLines:       65535
+urxvt.secondaryScroll: true
+urxvt.urgentOnBell:    false
+urxvt.visualBell:      false
+urxvt*geometry:        128x40
+urxvt*cutchars:        `"()'*<>[]{|}
+urxvt*matcher.button:  1
+urxvt*depth:           32
+urxvt*shading:         0
+urxvt*transparent:     false
+urxvt.cursorColor:     #dcdcdc
+urxvt.cursorBlink:     true
+urxvt*externalBorder:  0
+
+! brightened default colors
+URxvt*background: [90]#2F2F2F
+URxvt*foreground: #DEDEDE
+URxvt*colorUL: #86a2b0
+! black
+URxvt*color0 : #2E3436
+URxvt*color8 : #808080
+! red
+URxvt*color1 : #BB0000
+URxvt*color9 : #FF5757
+! green
+URxvt*color2 : #00BB00
+URxvt*color10 : #57FF57
+! yellow
+URxvt*color3 : #BBBB00
+URxvt*color11 : #FFFF57
+! blue
+URxvt*color4 : #2020E1
+URxvt*color12 : #5757FF
+! magenta
+URxvt*color5 : #BB00BB
+URxvt*color13 : #FF57FF
+! cyan
+URxvt*color6 : #00BBBB
+URxvt*color14 : #57FFFF
+! white
+URxvt*color7 : #C0C0C0
+URxvt*color15 : #FFFFFF
+
+xrenoise.use_xcursors:     1
+xrenoise.display:          :0
+xrenoise.display_resource: 0x00,0x09,0x32,0x4C,0x2F,0xED,0xB4,0x57
+xrenoise.executable_path:  /usr/bin/renoise
